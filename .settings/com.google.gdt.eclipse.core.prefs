@@ -1,0 +1,4 @@
+eclipse.preferences.version=1
+jarsExcludedFromWebInfLib=C\:/projects/deors.demos/web/deors.demos.web.gwt2spring/lib/gwt-math-2.1.jar
+warSrcDir=war
+warSrcDirIsOutput=true
