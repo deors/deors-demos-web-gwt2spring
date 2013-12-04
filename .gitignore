@@ -1,3 +1,5 @@
 .gwt
+.settings
+.springBeans
 gwt-unitCache
 test-classes
