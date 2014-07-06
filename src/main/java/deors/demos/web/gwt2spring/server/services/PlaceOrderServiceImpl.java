@@ -32,6 +32,6 @@ public class PlaceOrderServiceImpl
         }
 
         Random r = new Random();
-        return Integer.toString(Math.abs(r.nextInt()));
+        return Integer.toString(Math.abs(r.nextInt(10000000)));
     }
 }

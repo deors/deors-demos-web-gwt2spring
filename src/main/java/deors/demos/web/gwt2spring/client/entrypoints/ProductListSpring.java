@@ -227,7 +227,7 @@ public class ProductListSpring
 
     private void addProduct() {
 
-        if (productNames.size() == 0) {
+        if (productNames.isEmpty()) {
             Window.alert("Product list not loaded. Please try again by reloading this page.");
             return;
         }
@@ -350,7 +350,7 @@ public class ProductListSpring
 
     private void calculateTotal() {
 
-        BigDecimal total = new BigDecimal("0");
+        BigDecimal total = BigDecimal.ZERO;
         int rows = productsTable.getRowCount();
         for (int i = 1; i < rows; i++) {
             total = total.add(new BigDecimal(productsTable.getText(i, 4)));
