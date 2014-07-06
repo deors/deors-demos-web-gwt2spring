@@ -1,5 +1,6 @@
+.classpath
 .gwt
+.project
 .settings
 .springBeans
-gwt-unitCache
-test-classes
+target
