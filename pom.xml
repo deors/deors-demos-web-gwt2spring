@@ -5,12 +5,13 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <name>deors.demos.web.gwt2spring</name>
-
     <groupId>deors.demos</groupId>
-    <artifactId>deors.demos.web.gwt2spring</artifactId>
+    <artifactId>deors-demos-web-gwt2spring</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>war</packaging>
+
+    <name>deors-demos-web-gwt2spring</name>
+    <description>Demonstration of a simple Java application with Google Web Toolkit 2 and Spring Framework 3</description>
 
     <properties>
         <project.build.sourceEncoding>ISO-8859-1</project.build.sourceEncoding>
